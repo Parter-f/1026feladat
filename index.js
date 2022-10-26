@@ -8,8 +8,9 @@ function ellenorzes(szoveg , regex){
 
 document.getElementById('fizetbutton').addEventListener('click' , () =>{
 
-let namePattern = /^[a-zA-Z]+$/;
-
-
+let nameCountryCityPattern = /^[a-zA-Z]+$/;
+let streetPattern = /^[a-zA-Z0-9 ]+$/
+let postCodePattern = /^[a-zA-z 0-9]$/
+let cardNumPattern = /^[]$/ 
 
 })
