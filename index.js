@@ -11,6 +11,6 @@ document.getElementById('fizetbutton').addEventListener('click' , () =>{
 let nameCountryCityPattern = /^[a-zA-Z]+$/;
 let streetPattern = /^[a-zA-Z0-9 ]+$/
 let postCodePattern = /^[a-zA-z 0-9]$/
-let cardNumPattern = /^[]$/ 
+let cardNumPattern = /^[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}$/ 
 
 })
